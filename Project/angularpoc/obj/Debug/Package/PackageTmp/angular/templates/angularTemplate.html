@@ -1,0 +1,11 @@
+﻿<section class="row page-header sampleComponent spaced-row" ng-show="data">
+    <div class="col-xs-12">
+        <h1 class="header" ng-bind-html="data.Title | asTrusted"></h1>
+    </div>
+    <article class="col-xs-7 col-md-8">
+        <p ng-bind-html="data.Text | asTrusted"></p>
+    </article>
+    <figure class="col-xs-5 col-md-4">
+        <span ng-bind-html="data.Image | asTrusted"></span>
+    </figure>
+</section>
